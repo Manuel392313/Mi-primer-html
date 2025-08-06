@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bogotá</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+        }
+        h1 {
+
+            color: #460000;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #460000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        #lugar {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lugares para Parchar en Bogotá</h1>
+    <img src="https://ih1.redbubble.net/image.25632934.3391/flat,750x,075,f-pad,750x1000,f8f8f8.u3.jpg" alt="Bogotá" style="width: 40%; max-width: 600px; ">
+    <p>A continuación, haz clic en el botón y te mostraremos un lugar al azar.</p>
+    <p>Es una forma rápida y divertida de descubrir algo nuevo.</p>
+
+    <button onclick="cambiarLugar()">Lugar de Parche</button>
+     <p id="lugar" class="otro-parrafo">✨✨✨</p>
+    <script src="actions.js"></script>
+</body>
+</html>
